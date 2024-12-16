@@ -47,26 +47,34 @@ const NewsSection = () => {
             READ MORE
           </button>
         </div>
-
       </div>
-      
+
       <NewsBox
         date="11 December 2024"
         title="Mirko Bortolotti awarded at the Lamborghini Museum"
         imageSrc="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/12_11_mirko/cover_d.jpg"
         buttons={[
-          { text: "Brand Extension" }, // , onClick: () => handleButtonClick("Brand Extension")         
+          { text: "Brand Extension" }, // , onClick: () => handleButtonClick("Brand Extension")
         ]}
       />
-        <NewsBox
+
+      <NewsBox
         date="11 December 2024"
         title="Lamborghini Esperienza Neve debuts in Mongolia"
         imageSrc="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/12_11_neve/cover_d.jpg"
         buttons={[
           { text: "Events" },
-          {text : "Revuelt"} // , onClick: () => handleButtonClick("Brand Extension")         
+          { text: "Revuelt" }, // , onClick: () => handleButtonClick("Brand Extension")
         ]}
       />
+      <div className="m-16">
+        <button
+          className="uppercase border-solid border-black bg-gray-300 pt-3 pb-3 pl-10 pr-10
+             text-black hover:text-white hover:bg-black mt-10"
+        >
+          SEE ALL
+        </button>
+      </div>
     </section>
   );
 };

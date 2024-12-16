@@ -6,6 +6,7 @@ import ImageSlider from "./components/ImageSlider/ImageSlider";
 import SecondSection from "./components/SecondSection";
 import DealerLocatorSection from "./components/DelearLocatorSection";
 import NewsSection from "./components/NewsSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <SecondSection />
         <DealerLocatorSection/>
         <NewsSection></NewsSection>
+        <Footer></Footer>
       </div>
     </>
   );
