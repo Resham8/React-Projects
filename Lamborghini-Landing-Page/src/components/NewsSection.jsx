@@ -1,3 +1,4 @@
+import NewsBox from "./NewsBox";
 const NewsSection = () => {
   return (
     <section className="ml-32 mr-32 mt-11">
@@ -28,7 +29,7 @@ const NewsSection = () => {
           Brand Extension
         </button>
       </div>
-      <div className="flex justify-between mt-6 mb-7">
+      <div className="flex justify-between mt-6 mb-20">
         <div className="max-w-3xl">
           <h1 className="uppercase text-3xl font-bold">
             Macron x Automobili Lamborghini: running collection
@@ -46,7 +47,26 @@ const NewsSection = () => {
             READ MORE
           </button>
         </div>
+
       </div>
+      
+      <NewsBox
+        date="11 December 2024"
+        title="Mirko Bortolotti awarded at the Lamborghini Museum"
+        imageSrc="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/12_11_mirko/cover_d.jpg"
+        buttons={[
+          { text: "Brand Extension" }, // , onClick: () => handleButtonClick("Brand Extension")         
+        ]}
+      />
+        <NewsBox
+        date="11 December 2024"
+        title="Lamborghini Esperienza Neve debuts in Mongolia"
+        imageSrc="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/12_11_neve/cover_d.jpg"
+        buttons={[
+          { text: "Events" },
+          {text : "Revuelt"} // , onClick: () => handleButtonClick("Brand Extension")         
+        ]}
+      />
     </section>
   );
 };
