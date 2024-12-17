@@ -1,14 +1,14 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-800 text-white z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="fixed top-0 left-0 w-full bg-zinc-900 text-white z-50">
+      <div className="max-w-full m-2 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center h-20 justify-between">
-          {/* Logo */}
-          <div className="flex items-center">
+          
+          <div className="flex items-center mr-6">
             <img
               src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/logos/2024/03_26/logo_header_01.svg"
               alt="Lamborghini Logo"
@@ -16,12 +16,7 @@ const Navbar = () => {
             />
           </div>
 
-          {/* Left Menu Items */}
-          <div
-            className={`${
-              isOpen ? "block" : "hidden"
-            } sm:flex sm:space-x-8 sm:w-auto text-start`}
-          >
+          <div className="sm:flex sm:space-x-8 sm:w-auto text-start">
             <a
               href="/"
               className="block px-3 py-2 text-sm font-medium hover:bg-gray-700"
@@ -127,7 +122,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Hamburger Menu (Mobile) */}
+          {/* Hamburger Menu (Mobile)
           <div className="sm:hidden ml-auto">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -157,7 +152,7 @@ const Navbar = () => {
                 )}
               </svg>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

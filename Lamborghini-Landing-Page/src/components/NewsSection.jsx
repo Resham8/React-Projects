@@ -67,10 +67,10 @@ const NewsSection = () => {
           { text: "Revuelt" }, // , onClick: () => handleButtonClick("Brand Extension")
         ]}
       />
-      <div className="m-16">
+      <div className="flex justify-center items-center mt-20 mb-36">
         <button
-          className="uppercase border-solid border-black bg-gray-300 pt-3 pb-3 pl-10 pr-10
-             text-black hover:text-white hover:bg-black mt-10"
+          className="uppercase border-solid border-2 border-black bg-black pt-4 pb-4 pl-16 pr-16
+        text-white hover:text-black hover:bg-white"
         >
           SEE ALL
         </button>

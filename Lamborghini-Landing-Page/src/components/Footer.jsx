@@ -1,40 +1,40 @@
 const Footer = () => {
   return (
-    <div className="w-full h-1/3 bg-black text-white uppercase">
+    <div className="w-full h-1/3 bg-zinc-900 text-white uppercase">
       <div className="flex justify-between">
         <div className="flex flex-wrap m-16 max-w-3xl">
           <ul className="flex flex-wrap gap-4 text-lg ">
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Company</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Financials</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Careers</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Contact us</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Sustainability</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Media Center</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Privacy &amp; Legal</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Cookie settings</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Sitemap</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Newsletter</a>
             </li>
-            <li className="hover:border-b-2 hover:border-white">
+            <li className="relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-white after:bottom-0 after:left-0 after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300">
               <a href="#">Accessibility</a>
             </li>
           </ul>
