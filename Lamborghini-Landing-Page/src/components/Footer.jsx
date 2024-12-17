@@ -2,7 +2,6 @@ const Footer = () => {
   return (
     <div className="w-full h-1/3 bg-black text-white uppercase">
       <div className="flex justify-between">
-        {/* Parent div for list */}
         <div className="flex flex-wrap m-16 max-w-3xl">
           <ul className="flex flex-wrap gap-4 text-lg ">
             <li className="hover:border-b-2 hover:border-white">
@@ -77,6 +76,24 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="ml-16 mr-16 capitalize mb-10 text-base">
+        <p>
+          * The consumption and emissions values in the website refer to your
+          geographical IP. This value might be unrealistic if you navigate using
+          VPN or if the position of your Internet provider is imprecise. If you
+          believe you are incorrectly geolocalized, contact your dealer to get
+          valid consumption and emissions information in your area.
+        </p>
+      </div>
+      <div className="ml-16 mr-16 pb-16 text-lg">
+        <p className="capitalize">Copyright © 2024 Automobili Lamborghini S.p.A. a company with sole shareholder subject to the management and coordination of AUDI AG.</p>
+        <p className="capitalize">All rights reserved. VAT no. IT 00591801204</p>             
+        <p >WARNING ABOUT ILLEGAL OFFERS OF ALLEGED SHARES OF AUTOMOBILI LAMBORGHINI S.P.A.</p>
+        <p className="capitalize">Automobili Lamborghini S.p.A. got the notice that several third parties across different
+        countries are allegedly offering shares in Automobili Lamborghini S.p.A.
+        These offers are unlawful and originate neither from Volkswagen
+        Aktiengesellschaft nor from any of its subsidiaries.</p>        
       </div>
     </div>
   );
