@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="sm:flex sm:space-x-8 sm:w-auto text-start">
             <a
               href="/"
-              className="block px-3 py-2 text-sm font-medium hover:bg-gray-700"
+              className="block px-3 py-2 text-sm font-medium hover:underline"
             >
               MODELS
             </a>
