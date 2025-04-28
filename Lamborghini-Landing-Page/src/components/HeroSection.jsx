@@ -3,17 +3,17 @@ import { useState } from "react";
 const HeroSection = () => {
   const content = [
     {
-      video: "",
+      video: "https://videolamborghini-meride-tv.akamaized.net/video/folder2/1733821565proposta_1_slider_lamborghini.mp4",
       heading: "capita & union binding",
       subheading: "new snow experience"
     },
     {
-      video: "",
+      video: "https://videolamborghini-meride-tv.akamaized.net/video/folder2/172293875819_lambo_huracan_10s_all_cars_tl2_20240730_lamborghini.mp4",
       heading: "Temerario",
       subheading: "You can't hide who you are"
     },
     {
-      video: "",
+      video: "https://videolamborghini-meride-tv.akamaized.net/video/folder2/1734517692propostaslider_HP_1_lamborghini.mp4",
       heading: "Ready to go beyond?",
       subheading: "fast forworld"
     }
