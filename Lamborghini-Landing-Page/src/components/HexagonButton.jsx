@@ -10,6 +10,7 @@ function DirectionalButton({
   direction,
   fill = "black",
   size = "20",
+  stroke = "white",
 }) {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -23,6 +24,7 @@ function DirectionalButton({
           <ChevronUp
             size={size}
             color={isHovered ? "transparent" : "white"}
+            stroke={stroke}
             strokeWidth={2.5}
           />
         );
@@ -31,6 +33,7 @@ function DirectionalButton({
           <ChevronDown
             size={size}
             color={isHovered ? "transparent" : "white"}
+            stroke={stroke}
             strokeWidth={2.5}
           />
         );
@@ -39,6 +42,7 @@ function DirectionalButton({
           <ChevronLeft
             size={size}
             color={isHovered ? "transparent" : "white"}
+            stroke={stroke}
             strokeWidth={2.5}
           />
         );
@@ -47,6 +51,7 @@ function DirectionalButton({
           <ChevronRight
             size={size}
             color={isHovered ? "transparent" : "white"}
+            stroke={stroke}
             strokeWidth={2.5}
           />
         );
@@ -55,6 +60,7 @@ function DirectionalButton({
           <ChevronDown
             size={size}
             color={isHovered ? "transparent" : "white"}
+            stroke={stroke}
             strokeWidth={2.5}
           />
         );
@@ -74,7 +80,7 @@ function DirectionalButton({
       >
         <polygon
           points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5"
-          stroke="white"
+          stroke={stroke}
           strokeWidth="2"
           fill={isHovered ? fill : "none"}
         />

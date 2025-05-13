@@ -7,7 +7,7 @@
 }
 
 .clip-diagonal {
-  clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 45% 100%, 0% 100%);
   position: relative;
   z-index: 5;
 }

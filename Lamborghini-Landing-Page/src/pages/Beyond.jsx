@@ -25,7 +25,7 @@ function Beyond() {
           <img
             src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/beyond/landing/over/beyond_land_over_01.jpg"
             alt="Lamborghini"
-            className="w-full h-full object-cover object-left"
+            className="w-full h-full object-cover -translate-x-44"
           />
         </div>
                
@@ -37,8 +37,8 @@ function Beyond() {
             world.
           </p>
           <div className="flex items-center gap-3 cursor-pointer group">
-            <div className="border border-neutral-400 group-hover:border-black rounded-full p-1 transition-colors">
-              <DirectionalButton direction="right" fill="black" />
+            <div>
+              <DirectionalButton direction="right" stroke="black" />
             </div>
             <span className="uppercase font-bold tracking-wider text-sm text-black group-hover:text-neutral-700 transition-colors">
               Brand Manifesto
