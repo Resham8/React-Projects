@@ -2,7 +2,8 @@ import DirectionalButton from "../components/HexagonButton";
 
 function Beyond() {
   return (
-    <>      
+    <div className="flex flex-col gap-6">
+     
       <div className="relative w-full h-screen overflow-hidden">
         <img
           src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/beyond/landing/hero/beyond_land_hero_01.jpg"
@@ -17,34 +18,36 @@ function Beyond() {
           </div>
         </div>
       </div>
-      
-      <div className="w-full h-screen flex relative overflow-hidden">        
-        <div className="w-[65%] h-full relative clip-diagonal">
+
+
+      <div className="w-full min-h-screen flex relative overflow-hidden bg-zinc-100"> 
+        <div className="w-[65%] relative self-stretch clip-diagonal"> 
           <img
             src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/beyond/landing/over/beyond_land_over_01.jpg"
             alt="Lamborghini"
             className="w-full h-full object-cover object-left"
           />
         </div>
-                
-        <div className="w-[35%] h-full flex flex-col justify-center items-start px-12 bg-white">
-          <h2 className="text-5xl font-black uppercase mb-6">Overview</h2>
-          <p className="text-lg leading-relaxed mb-10">
-            The greatest challenge ever: moving forward and always raising the
-            bar, going beyond the status quo to build a brand new limitless
+               
+        <div className="w-[35%] flex flex-col justify-center items-start px-10 md:px-16 lg:px-20 py-12"> 
+          <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 text-black">Overview</h2>
+          <p className="text-base md:text-lg leading-relaxed mb-10 text-neutral-700">
+            The greatest challenge ever: moving forward and always raising
+            the bar, going beyond the status quo to build a brand new limitless
             world.
           </p>
-          <div className="flex items-center gap-3">
-            <div className="border border-gray-300 rounded-full p-1">
-              <DirectionalButton direction="right" />
+          <div className="flex items-center gap-3 cursor-pointer group">
+            <div className="border border-neutral-400 group-hover:border-black rounded-full p-1 transition-colors">
+              <DirectionalButton direction="right" fill="black" />
             </div>
-            <span className="uppercase font-bold tracking-wider text-sm">
+            <span className="uppercase font-bold tracking-wider text-sm text-black group-hover:text-neutral-700 transition-colors">
               Brand Manifesto
             </span>
           </div>
         </div>
       </div>
-    </>
+      <div></div>
+    </div>
   );
 }
 

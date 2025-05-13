@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* styles/clip.css */
 .clip-path-class {
   clip-path: polygon(8% 0, 100% 0%, 75% 100%, 8% 100%);
 }
 
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+  position: relative;
+  z-index: 5;
+}
+
+.clip-diagonal img {
+  object-position: center center;
+}
