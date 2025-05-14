@@ -1,9 +1,9 @@
+import { ChevronRight } from "lucide-react";
 import DirectionalButton from "../components/HexagonButton";
 
 function Beyond() {
   return (
     <div className="flex flex-col gap-6">
-     
       <div className="relative w-full h-screen overflow-hidden">
         <img
           src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/beyond/landing/hero/beyond_land_hero_01.jpg"
@@ -19,30 +19,53 @@ function Beyond() {
         </div>
       </div>
 
-
-      <div className="w-full min-h-screen flex relative overflow-hidden bg-zinc-100"> 
-        <div className="w-[65%] relative self-stretch clip-diagonal"> 
-          <img
-            src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/beyond/landing/over/beyond_land_over_01.jpg"
-            alt="Lamborghini"
-            className="w-full h-full object-cover -translate-x-44"
-          />
-        </div>
-               
-        <div className="w-[35%] flex flex-col justify-center items-start px-10 md:px-16 lg:px-20 py-12"> 
-          <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 text-black">Overview</h2>
-          <p className="text-base md:text-lg leading-relaxed mb-10 text-neutral-700">
-            The greatest challenge ever: moving forward and always raising
-            the bar, going beyond the status quo to build a brand new limitless
-            world.
-          </p>
-          <div className="flex items-center gap-3 cursor-pointer group">
-            <div>
-              <DirectionalButton direction="right" stroke="black" />
+      <div className="relative w-full flex-grow overflow-hidden">
+        <div className="relative h-[calc(100vh-72px)] w-full">
+          <div className="reletive top-0 left-0 h-full w-full">
+            <div
+              className="reletive top-0 left-0 h-full transform -translate-x-[455px]"
+              style={{
+                width: "100%",
+                clipPath: "polygon(0 0, 100% 0, 65% 100%, 0 100%)",
+                WebkitClipPath: "polygon(0 0, 100% 0, 65% 100%, 0 100%)",
+              }}
+            >
+              <div
+                style={{ position: "relative", width: "100%", height: "100%" }}
+              >
+                <img
+                  src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/beyond/landing/over/beyond_land_over_01.jpg"
+                  alt="Children looking at Lamborghini"
+                  style={{
+                    objectFit: "cover",
+                    width: "100%",
+                    height: "100%",
+                  }}
+                />
+              </div>
             </div>
-            <span className="uppercase font-bold tracking-wider text-sm text-black group-hover:text-neutral-700 transition-colors">
-              Brand Manifesto
-            </span>
+          </div>
+
+          <div className="absolute top-0 right-0 h-full w-full md:w-1/2 lg:w-2/5 flex items-center">
+            <div className="p-8 md:p-12 lg:p-16">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">
+                OVERVIEW
+              </h1>
+              <p className="text-base md:text-lg mb-8 leading-relaxed">
+                The greatest challenge ever: moving forward and always raising
+                the bar, going beyond the status quo to build a brand new
+                limitless world.
+              </p>
+              <a
+                href="/brand-manifesto"
+                className="inline-flex items-center group"
+              >
+                <div className="border border-black p-3 rounded-full mr-3 group-hover:bg-black group-hover:text-white transition-colors">
+                  <ChevronRight className="h-5 w-5" />
+                </div>
+                <span className="text-sm font-medium">Brand Manifesto</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
